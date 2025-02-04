@@ -409,8 +409,8 @@ header {
 }
 
 .age {
-  width: 50px;
-  height: 50px;
+  width: 53px;
+  height: 53px;
   text-align: center;
   line-height: 50px;
   border-radius: 25px;
@@ -433,17 +433,6 @@ header {
   color: #e65100;
 }
 
-.fa-github {
-  color: var(--white);
-}
-
-.icon-jira {
-  color: var(--jira);
-}
-
-.icon-amazonaws {
-  color: var(--aws);
-}
 
 .arrow {
   position: relative;
@@ -611,63 +600,7 @@ header {
   content: '';
   top: 8px;
 }
-/*
-.menu__box {
-  display: block;
-  position: fixed;
-  visibility: hidden;
-  top: 0;
-  left: -100%;
-  width: 250px;
-  height: 30%;
-  margin: 0;
-  padding: 50px 0;
-  list-style: none;
-  text-align: center;
-  background-color: var(--dark-grey);
-  -webkit-box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
-          box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
-}
 
-.menu__box li {
-  width: 100%;
-}
-
-.menu__item {
-  display: block;
-  padding: 12px 24px;
-  color: var(--white);
-  font-size: 20px;
-  font-weight: 600;
-  text-decoration: none;
-}
-
-.menu__item:hover {
-  background-color: var(--black);
-}
-
-#menu__toggle:checked ~ .menu__btn > span {
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
-}
-
-#menu__toggle:checked ~ .menu__btn > span::before {
-  top: 0;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-}
-
-#menu__toggle:checked ~ .menu__btn > span::after {
-  top: 0;
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
-}
-
-#menu__toggle:checked ~ .menu__box {
-  visibility: visible;
-  left: 0;
-}
-*/
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   span {
     font-size: small;
