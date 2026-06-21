@@ -24,7 +24,7 @@
         box-sizing: border-box !important;
       }
 
-      /* Скидаємо фіксовану ширину та абсолютне позиціонування колонок, якщо воно там було */
+      /* Скидаємо фіксовану ширину та абсолютне позиціонування колонок */
       .wrapper_l_col, .wrapper_r_col {
         position: static !important;
         width: 100% !important;
@@ -70,6 +70,16 @@
         display: flex !important;
         flex-wrap: wrap !important;
         gap: 10px !important;
+      }
+
+      /* ==================================================================
+         ОСЬ ЦЕЙ БЛОК ЗМЕНШУЄ ШРИФТ ДЛЯ ТЕКСТУ В КРУЖЕЧКАХ НА МОБІЛКАХ
+         ================================================================== */
+      .circle span {
+        font-size: 11px !important; /* Робимо шрифт меншим, щоб довгі слова вміщалися */
+        line-height: 1.2 !important; /* Трохи притискаємо рядки, якщо слово переноситься */
+        display: block !important;
+        text-align: center !important;
       }
     }
   </style>
