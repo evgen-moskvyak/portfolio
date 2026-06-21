@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <!-- saved from url=(0042)file:///Users/user/Desktop/html/index.html -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!-- Налаштування коректного масштабу на смартфонах -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title lang="en">Resume of Moskvyak Evgen. Manual QA Engineer</title>
   <meta property="og:title" content="Resume of Moskvyak Evgen. QA engineer">
 <link rel="stylesheet" href="./Resume of Moskvyak Evgen. QA Engineer_files/styles.css">
@@ -8,6 +10,69 @@
   
  <!--  favicon -->
  <link rel="shortcut icon" href="./Resume of Moskvyak Evgen. QA Engineer_files/favicon.jpg" type="image/x-icon">
+
+  <style>
+    /* Мобільна адаптивність: вмикається лише на екранах менше 900px */
+    @media (max-width: 900px) {
+      /* Перелаштовуємо головний контейнер у вертикальну колонку */
+      .wrapper {
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        padding: 15px !important;
+        box-sizing: border-box !important;
+      }
+
+      /* Скидаємо фіксовану ширину та абсолютне позиціонування колонок, якщо воно там було */
+      .wrapper_l_col, .wrapper_r_col {
+        position: static !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        float: none !important;
+        box-sizing: border-box !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+      }
+
+      /* Додаємо невеликий відступ між лівим блоком і досвідом роботи */
+      .wrapper_l_col {
+        margin-bottom: 30px !important;
+      }
+
+      /* Робимо блоки з роками та описом роботи адаптивними */
+      .wrapper_r_col_info_wrap {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+      }
+
+      .wrapper_r_col_info_year {
+        width: 100% !important;
+        margin-bottom: 10px !important;
+      }
+
+      .wrapper_r_col_info_intelligence {
+        margin-left: 0 !important;
+        width: 100% !important;
+      }
+
+      /* Коректне відображення круглих діаграм/скілів на маленьких екранах */
+      .wrapper_l_col_circle_diagramms, .wrapper_r_col_skills {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        gap: 10px !important;
+        justify-content: center !important;
+      }
+
+      /* Адаптуємо флекс-елементи лінків та інтересів */
+      .wrapper_r_col_links, .wrapper_r_col_hobby {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        gap: 10px !important;
+      }
+    }
+  </style>
 </head>
 
 <body>
@@ -38,7 +103,7 @@
 		Odesa. Remotely.
 		<br>
 		<span>
-		P.S. This page is only for desktop browsers.
+		P.S. This page is adapted for mobile and desktop browsers.
 		</span>
 		<br>
         <span>Please do not judge strictly. This is my first webpage)))</span>
